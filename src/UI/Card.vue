@@ -7,7 +7,7 @@ export default {
 </script>
 
 <template>
-	<div v-for="(el, index) in this.array" class="card">
+	<div v-for="el in this.array" class="card">
 		<img
 			:src="'https://picsum.photos/id/12' + el.id + '/240/200'"
 			alt="img"
